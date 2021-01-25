@@ -13,3 +13,9 @@
 - rm "filename" - removes a file
 - cp "filename" "dest" - copies a file
 - mv "filename" "dest" - moves a file to destination
+
+### The curl command used to get your data and write in a file
+`curl "yourlongurl" -O "data.txt`
+
+### The command you used to find the most common words, sorted.
+`tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr`
