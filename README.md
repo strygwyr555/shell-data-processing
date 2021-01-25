@@ -9,7 +9,7 @@
 
 ## Basic GitBash Commands
 - ls - lists your files in current directory.
-- touch <filename> - creates or updates (edit) your file.
-- rm <filename> - removes a file
-- cp <filename> <dest> - copies a file
-- mv <filename> <dest> - moves a file to destination
+- touch "filename" - creates or updates (edit) your file.
+- rm "filename" - removes a file
+- cp "filename" "dest" - copies a file
+- mv "filename" "dest" - moves a file to destination
